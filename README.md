@@ -1,14 +1,6 @@
-![header.png](https://cdn.wenanzhe.com/img/68747470733a2f2f7a332e617831782e636f6d2f323032312f30372f30322f5236496832382e6a7067.jfif)
-
 # 带带弟弟OCR通用验证码识别SDK免费开源版
 
 # 官方免费在线ddddocr接口
-
-
-[注册即可免费在线调用](https://01.gs/doc/9)
-
-不需要付钱，也不需要发工单，注册就能用！
-
 
 # 当前版本为1.4.7
 
@@ -33,17 +25,6 @@ res = ocr.classification(image_bytes)
 print(res)
 
 ```
-
-# 捐赠 （如果项目有帮助到您，可以选择捐赠一些费用用于ddddocr的后续版本维护，本项目长期维护）
-
- ![Test](https://cdn.wenanzhe.com/img/zhifubao.jpg!/scale/30) 
- ![Test](https://cdn.wenanzhe.com/img/weixin.jpg!/scale/30)
-
-# 赞助合作商
-
-|                                                            | 赞助合作商 | 推荐理由                                                                                             |
-|------------------------------------------------------------|------------|--------------------------------------------------------------------------------------------------|
-| ![YesCaptcha](https://cdn.wenanzhe.com/img/yescaptcha.png) | [YesCaptcha](https://yescaptcha.com/i/NSwk7i) | 谷歌reCaptcha验证码 / hCaptcha验证码 / funCaptcha验证码商业级识别接口 [点我](https://yescaptcha.com/i/NSwk7i) 直达VIP4 |
 
 # 1.4.0版本更新内容
 
@@ -253,18 +234,3 @@ cv2.imwrite("result.jpg", im)
 [github](https://github.com/sml2h3/ocr_api_server) 
 
 [gitee](https://gitee.com/fkgeek/ocr_api_server)
-
-## 爬虫框架推荐
-
-[feapder](https://github.com/Boris-code/feapder) 
-
-[crawlab](https://github.com/crawlab-team/crawlab)
-
-# 交流群 （加我好友拉你进群）
- 
- ![五群链接](https://cdn.wenanzhe.com/img/%E5%BE%AE%E4%BF%A1%E5%9B%BE%E7%89%87_20220929101325.jpg!/scale/50)
- ![Test](https://cdn.wenanzhe.com/img/mmqrcode1640418911274.png!/scale/50) 
-
-## Star 历史
-
-[![Star History Chart](https://api.star-history.com/svg?repos=sml2h3/ddddocr&type=Date)](https://star-history.com/#sml2h3/ddddocr&Date)
