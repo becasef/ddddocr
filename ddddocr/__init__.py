@@ -31,11 +31,6 @@ class TypeError(Exception):
 class DdddOcr(object):
     def __init__(self, ocr: bool = True, det: bool = False, old: bool = False, beta: bool = False, use_gpu: bool = False,
                  device_id: int = 0, show_ad=True, import_onnx_path: str = "", charsets_path: str = ""):
-        if show_ad:
-            print("欢迎使用ddddocr，本项目专注带动行业内卷，个人博客:wenanzhe.com")
-            print("训练数据支持来源于:http://146.56.204.113:19199/preview")
-            print("爬虫框架feapder可快速一键接入，快速开启爬虫之旅：https://github.com/Boris-code/feapder")
-            print("谷歌reCaptcha验证码 / hCaptcha验证码 / funCaptcha验证码商业级识别接口：https://yescaptcha.com/i/NSwk7i")
         self.use_import_onnx = False
         self.__word = False
         self.__resize = []
